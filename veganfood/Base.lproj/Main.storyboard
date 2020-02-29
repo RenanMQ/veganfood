@@ -72,6 +72,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logoampliado" translatesAutoresizingMaskIntoConstraints="NO" id="y4m-cT-SGc">
                                 <rect key="frame" x="90" y="60" width="194" height="185"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="circle.grid.hex.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="641-lW-iSl">
+                                <rect key="frame" x="184" y="513" width="21" height="20"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -88,6 +91,7 @@
                             <constraint firstItem="9AE-jc-WGU" firstAttribute="centerX" secondItem="y4m-cT-SGc" secondAttribute="centerX" id="Njn-bD-LOE"/>
                             <constraint firstItem="J1j-7u-iNx" firstAttribute="top" secondItem="9AE-jc-WGU" secondAttribute="bottom" constant="31" id="Nt6-sP-H2g"/>
                             <constraint firstItem="9AE-jc-WGU" firstAttribute="top" secondItem="y4m-cT-SGc" secondAttribute="bottom" constant="8" id="TKp-Uh-zU5"/>
+                            <constraint firstItem="641-lW-iSl" firstAttribute="trailing" secondItem="Ip9-SE-gAu" secondAttribute="trailing" id="Tg5-ek-gK3"/>
                             <constraint firstItem="9AE-jc-WGU" firstAttribute="trailing" secondItem="iuD-fD-DyR" secondAttribute="trailing" id="csi-Qh-3ki"/>
                             <constraint firstItem="9AE-jc-WGU" firstAttribute="leading" secondItem="iuD-fD-DyR" secondAttribute="leading" id="diz-Gi-Bxb"/>
                             <constraint firstItem="9AE-jc-WGU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="284" id="tkj-Hx-TT9"/>
@@ -102,6 +106,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="circle.grid.hex.fill" catalog="system" width="64" height="56"/>
         <image name="logoIcon" width="135.33332824707031" height="133.66667175292969"/>
         <image name="logoampliado" width="662" height="520"/>
     </resources>
