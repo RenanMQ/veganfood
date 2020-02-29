@@ -1,0 +1,6 @@
+framework module Pods_veganfood {
+  umbrella header "Pods-veganfood-umbrella.h"
+
+  export *
+  module * { export * }
+}

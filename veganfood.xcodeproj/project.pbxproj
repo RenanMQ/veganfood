@@ -3,25 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8D6333DAFADD506E550E034 /* Pods_veganfood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70362575808EDF731A30DF3 /* Pods_veganfood.framework */; };
 		EE6AAE8724024B8200D02EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AAE8624024B8200D02EAF /* AppDelegate.swift */; };
-		EE6AAE8924024B8200D02EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AAE8824024B8200D02EAF /* ViewController.swift */; };
+		EE6AAE8924024B8200D02EAF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AAE8824024B8200D02EAF /* LoginController.swift */; };
 		EE6AAE8C24024B8200D02EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAE8A24024B8200D02EAF /* Main.storyboard */; };
 		EE6AAE8E24024B8300D02EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAE8D24024B8300D02EAF /* Assets.xcassets */; };
 		EE6AAE9124024B8300D02EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAE8F24024B8300D02EAF /* LaunchScreen.storyboard */; };
+		EE6AAE992402F47400D02EAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAE982402F47400D02EAF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48F324CFEF75D1440ED5F631 /* Pods-veganfood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veganfood.release.xcconfig"; path = "Target Support Files/Pods-veganfood/Pods-veganfood.release.xcconfig"; sourceTree = "<group>"; };
+		95FBB98E6C7AB022207341A2 /* Pods-veganfood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veganfood.debug.xcconfig"; path = "Target Support Files/Pods-veganfood/Pods-veganfood.debug.xcconfig"; sourceTree = "<group>"; };
+		EE09ED0D2409E69B003F338A /* veganfood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = veganfood.entitlements; sourceTree = "<group>"; };
 		EE6AAE8324024B8200D02EAF /* veganfood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veganfood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6AAE8624024B8200D02EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE6AAE8824024B8200D02EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE6AAE8824024B8200D02EAF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		EE6AAE8B24024B8200D02EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE6AAE8D24024B8300D02EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6AAE9024024B8300D02EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE6AAE9224024B8300D02EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6AAE982402F47400D02EAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F70362575808EDF731A30DF3 /* Pods_veganfood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_veganfood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D6333DAFADD506E550E034 /* Pods_veganfood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACAAFD51C334B3656E4CD53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95FBB98E6C7AB022207341A2 /* Pods-veganfood.debug.xcconfig */,
+				48F324CFEF75D1440ED5F631 /* Pods-veganfood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1BBEA605CCC6A368CE5D18D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70362575808EDF731A30DF3 /* Pods_veganfood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE6AAE7A24024B8200D02EAF = {
 			isa = PBXGroup;
 			children = (
 				EE6AAE8524024B8200D02EAF /* veganfood */,
 				EE6AAE8424024B8200D02EAF /* Products */,
+				0ACAAFD51C334B3656E4CD53 /* Pods */,
+				1BBEA605CCC6A368CE5D18D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +81,13 @@
 		EE6AAE8524024B8200D02EAF /* veganfood */ = {
 			isa = PBXGroup;
 			children = (
+				EE09ED0D2409E69B003F338A /* veganfood.entitlements */,
 				EE6AAE8624024B8200D02EAF /* AppDelegate.swift */,
-				EE6AAE8824024B8200D02EAF /* ViewController.swift */,
+				EE6AAE8824024B8200D02EAF /* LoginController.swift */,
 				EE6AAE8A24024B8200D02EAF /* Main.storyboard */,
 				EE6AAE8D24024B8300D02EAF /* Assets.xcassets */,
 				EE6AAE8F24024B8300D02EAF /* LaunchScreen.storyboard */,
+				EE6AAE982402F47400D02EAF /* GoogleService-Info.plist */,
 				EE6AAE9224024B8300D02EAF /* Info.plist */,
 			);
 			path = veganfood;
@@ -71,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE6AAE9524024B8300D02EAF /* Build configuration list for PBXNativeTarget "veganfood" */;
 			buildPhases = (
+				D085E543AC9F62AA18F84FE5 /* [CP] Check Pods Manifest.lock */,
 				EE6AAE7F24024B8200D02EAF /* Sources */,
 				EE6AAE8024024B8200D02EAF /* Frameworks */,
 				EE6AAE8124024B8200D02EAF /* Resources */,
+				7101E446A346DCBA3F777798 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +127,11 @@
 				TargetAttributes = {
 					EE6AAE8224024B8200D02EAF = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6AAE9124024B8300D02EAF /* LaunchScreen.storyboard in Resources */,
+				EE6AAE992402F47400D02EAF /* GoogleService-Info.plist in Resources */,
 				EE6AAE8E24024B8300D02EAF /* Assets.xcassets in Resources */,
 				EE6AAE8C24024B8200D02EAF /* Main.storyboard in Resources */,
 			);
@@ -130,12 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7101E446A346DCBA3F777798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veganfood/Pods-veganfood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veganfood/Pods-veganfood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-veganfood/Pods-veganfood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D085E543AC9F62AA18F84FE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-veganfood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE6AAE7F24024B8200D02EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6AAE8924024B8200D02EAF /* ViewController.swift in Sources */,
+				EE6AAE8924024B8200D02EAF /* LoginController.swift in Sources */,
 				EE6AAE8724024B8200D02EAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +359,13 @@
 		};
 		EE6AAE9624024B8300D02EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FBB98E6C7AB022207341A2 /* Pods-veganfood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = veganfood/veganfood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XD8U4YVU4W;
 				INFOPLIST_FILE = veganfood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +373,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devmobile.veganfood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +381,13 @@
 		};
 		EE6AAE9724024B8300D02EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F324CFEF75D1440ED5F631 /* Pods-veganfood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = veganfood/veganfood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XD8U4YVU4W;
 				INFOPLIST_FILE = veganfood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devmobile.veganfood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
